@@ -363,6 +363,8 @@ footer {visibility: hidden;}
 @keyframes flash {0%{opacity:0} 6%{opacity:.95} 14%{opacity:.25} 22%{opacity:.85} 45%{opacity:0} 100%{opacity:0}}
 .bolt {position: fixed; z-index: 10000; left: calc(50% - 60px); top: 20vh; width: 120px; pointer-events: none; opacity: 0; animation: boltanim 2.4s ease-out forwards; filter: drop-shadow(0 0 20px #facc15);}
 @keyframes boltanim {0%{opacity:0; transform: scale(.4)} 8%{opacity:1; transform: scale(1.2)} 40%{opacity:1} 55%{opacity:0; transform: scale(1)} 100%{opacity:0}}
+.stTextInput input {background: #e0f2fe !important; color: #000 !important; font-weight: 600 !important; border: 3px solid #a855f7 !important;}
+.stTextInput input::placeholder {color: #000 !important; opacity: .8 !important;}
 </style>
 """
 
