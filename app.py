@@ -430,4 +430,3 @@ if go:
                     if not text:
                         st.caption((r.get("content") or "")[:220])
 
-st.markdown('<div class="footer">🛰️ Built with Streamlit, Tavily and Gemini</div>', unsafe_allow_html=True)
