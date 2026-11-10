@@ -430,4 +430,3 @@ if go:
                     if not text:
                         st.caption((r.get("content") or "")[:220])
 
-
